@@ -1,0 +1,18 @@
+debug: false
+uuid: 9cdfcb79-e251-422d-935f-654ab1e478b4
+token_id: aAXnnK63KelhEYGP
+token: sEQ5forg4P3TQKdz2Vs2AO8Qq3EBWmul38gdkl8KUI1nw7IOxVniMSzBQf4kmdIo
+api:
+  host: 0.0.0.0
+  port: 443
+  ssl:
+    enabled: false
+    cert: /etc/letsencrypt/live/wahoo-devoted-honestly.ngrok-free.app/fullchain.pem
+    key: /etc/letsencrypt/live/wahoo-devoted-honestly.ngrok-free.app/privkey.pem
+  upload_limit: 100
+system:
+  data: /var/lib/pterodactyl/volumes
+  sftp:
+    bind_port: 2022
+allowed_mounts: []
+remote: 'http://weasel-pleasing-dory.ngrok-free.app'
